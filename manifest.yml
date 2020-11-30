@@ -1,0 +1,8 @@
+---
+applications:
+- name: EDI_Generator
+  memory: 2000MB
+  disk_quota: 3999MB
+  random-route: true
+  buildpack: python_buildpack
+  command: python frontend.py
